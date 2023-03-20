@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Paytone+One&display=swap');
+body{
+    background-color: rgb(8, 8, 8);
+}
+
+/* ---------- Custom Css ---------- */
+
+.font-family{
+    font-family: 'Paytone One';
+    font-style: normal;
+}
+
+.bg-gradiant{
+    background: linear-gradient(to right, #ffd079 , #ad8004 );
+}
+
+header{
+    background: linear-gradient(to right,  #daa71b , #f3bf14);
+}
+
+.theme-color{
+    color: #EDBF3D !important;
+}
+
+.text-success{
+    color: rgb(90, 216, 90) !important;
+}
+
+.text-success-2{
+    color: greenyellow;
+}
+
+.para{
+    line-height: 25px;
+}
+
+.cr-pointer{
+    cursor: pointer;
+}
+
+.text-size{
+    font-size: 13px;
+}
+
+.bg-primary{
+    background: linear-gradient( to right , #EDBF3D,  #aa8319);
+}
+
+.head-size{
+    font-size: 60px !important;
+}
+
+.text-color{
+    color: rgb(104, 104, 104) !important;
+}
+
+/* ---------- Custom Css End ---------- */
+
+
+/* ---------- Navbar ---------- */
+.nav li a{
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.form-control{
+    background-color: black;
+    border: 3px solid #EDBF3D;
+    color: white !important;
+    border-radius: 9px;
+    text-indent: 12px;
+    padding: 12px !important;
+}
+
+.form-control:focus{
+    background-color: black;
+    border: 1px solid #e7aa01;
+    box-shadow: 0 0 0 0 !important;
+    border: 3px solid #EDBF3D !important;
+}
+
+.search-icon{
+    position: absolute;
+    color: #EDBF3D !important;
+    right: 12px;
+}
+
+.notification_count{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(231, 66, 66);
+    border-radius: 50%;
+    color: white !important;
+    position: absolute;
+    right: 13px;
+    top: -3px;
+    font-size: 12px;
+}
+
+.dropdown-menu{
+    width: 320px;
+    background-color: black;
+    border: 1px solid #f5b70c;
+    border-radius: 12px;
+}
+
+.dropdown-item:hover{
+    background-color: black !important;
+}
+
+.manu-bar{
+    display: none;
+}
+
+
+.side-nav-links li{
+    background-color: black !important;
+}
+
+.active-link{
+    background-color: #EDBF3D !important;
+}
+
+.nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 6px;
+}
+
+/* ---------- Navbar END---------- */
+
+
+/* ---------------------- discover banner css ---------------------- */
+
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.699), rgba(7, 7, 7, 0.774)), url(/src/assets/img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+#banner_text h1{
+    font-size: 80px !important;
+}
+
+.btn-primary{
+    background: linear-gradient(98.21deg, #e9ac3c 44.83%, #FFBD0C 51.59%);
+    border: 0;
+    color: black;
+    font-weight: 700;
+}
+
+.btn-primary:hover{
+    color: black;
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 3px #e9ad3c69 !important;
+    color: black;
+}
+
+.btn-outline-primary{
+    border: 1px solid  #e9ac3c  !important;
+    transition: 0.2s ;
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover{
+    transition: 0.2s;
+    background: linear-gradient(98.21deg, #f7a816 44.83%, #FFBD0C 51.59%) !important;
+    color: black !important;
+}
+
+.btn-outline-primary:focus{
+    box-shadow: 0 0 0 3px #e9ad3c69 !important;
+}
+
+#banner_bottom_text{
+    background: linear-gradient(to right,  #c49003, #e2ac16 , #f1c46f);
+}
+
+/* ---------------------- discover banner css End ---------------------- */
+
+
+
+
+/* ---------------------- discover slider ---------------------- */
+.multi_heading{
+    background: linear-gradient(to right,  #f3cb5e, #e69c14);
+}
+
+.crousal-card{
+    background: linear-gradient(to bottom right,  #ffdf87,  #cf9c3d, #be7f08);
+    border-radius: 8px;
+}
+
+.styles-module_carousel-arrow__26sRw{
+    display: none !important;
+}
+
+/* ---------------------- discover slider End---------------------- */
+
+
+
+/* ---------------------- discover Artist Spotlight ---------------------- */
+
+.spotlight_img{
+    position: relative;
+}
+
+
+
+/* ---------------------- discover Artist Spotlight End---------------------- */
+
+
+
+/* ---------------------- Stats tables---------------------- */
+
+.leaders_card{
+    border: 2px solid #cf9c3d;
+    position: relative;
+}
+
+
+.leaders_card::after{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    background-color: rgb(8, 8, 8);
+    top: -5px;
+    right: -3px;
+}
+
+.leaders_card::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    background-color: rgb(8, 8, 8);
+    bottom: -5px;
+    left: -3px;
+}
+
+.table_heading{
+    font-size: 45px;
+}
+
+.rank_num{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5bf5b;
+    border-radius: 50%;
+}
+
+.table tbody tr th , td{
+    border: none !important;
+    border-style: none !important;
+    border-bottom: none !important;
+}
+
+.table{
+    border: none !important;
+}
+
+/* ---------------------- Stats tables End---------------------- */
+
+
+.profile_pic{
+    border: 9px solid #EDBF3D;
+}
+
+.coins-tag{
+    background-color: #EDBF3D;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.profile-created-link{
+    position: relative;
+}
+
+.link-active:focus {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #EDBF3D, greenyellow);
+    position: absolute;
+    bottom: 0;
+}
+
+.counted-tag{
+    background-color: greenyellow;
+}
+
+.counted-tag-2{
+    background-color: #B9A9FB;
+}
+
+.counted-tag-3{
+    background-color: #FFA6D6;
+}
+
+
+
+
+.social-logo-main ul li{
+    list-style: none !important;
+    padding: 15px 0;
+}
+
+
+
+
+/* ---------------------- Creator Card ---------------------- */
+
+.created-card-img{
+    border-radius: 12px;
+    box-shadow: 0 0 50px 1px  rgba(1, 37, 82, 0.329);
+}
+
+/* ---------------------- Creator Card  End---------------------- */
+
+
+/* ---------------------- Creator Card ---------------------- */
+
+.collection-card-img{
+    border-radius: 12px; 
+    box-shadow: 0 0 50px 1px  rgba(1, 37, 82, 0.329);
+}
+
+/* ---------------------- Creator Card  End---------------------- */
+
+
+
+/* ---------------------- Settings Form---------------------- */
+
+.profile-links{
+    border-radius: 10px;
+}
+
+.profile-img-upload{
+    height: 230px;
+    position: relative;
+    bottom: 0;
+}
+
+.dp{
+    font-size: 90px !important;
+    position: relative;
+    bottom: 0;
+}
+
+
+.upload-img {
+    border-radius: 15px;
+    border: 3px solid rgb(92, 92, 92);
+}
+
+.setting-form{
+    border: none !important;
+    border-bottom: 1px solid !important;
+    border-radius: 0px;
+    background-color: rgb(8, 8, 8);
+    text-indent: 0px;
+}
+
+.form-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input::placeholder {
+    color: rgba(235, 232, 232, 0.822) !important;
+    font-size: 18px;
+    position: relative;
+    left: -12px;
+  }
+
+.setting-form:focus{
+    background-color: rgb(8, 8, 8);
+}
+
+.input-ico{
+    top: 13px;
+    right: 0;
+}
+
+.profile-links{
+    background-color: white !important;
+    color: black !important;
+}
+
+.form-check-input:checked{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 4px !important;
+    
+}
+
+.form-check-input{
+    width: 40px !important;
+    border-radius: 4px !important;
+    height: 22px;
+}
+
+.form-check-input:focus{
+    box-shadow: 0 0 0 0.25rem #edbe3d73;
+}
+
+
+
+/* ---------------------- Settings Form END---------------------- */
+
+
+/* ---------------------- Wallet ---------------------- */
+
+.wallet{
+    background: linear-gradient( to right , #EDBF3D,  #aa8319);
+    height: 50px;
+    width: 50px;
+}
+
+/* ---------------------- Wallet END---------------------- */
+
+
+
+
+/* ---------------------- Sign Up Right Component ---------------------- */
+
+.right-back{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient( to top left , #EDBF3D,  #cea22a);
+}
+
+.bottom-back{
+    height: 100%;
+}
+
+.bottom-text{
+    position: fixed;
+    bottom: 30px;
+    
+}
+
+.bottom-text h1{
+    font-size: 56px;
+}
+
+.next-aero{
+    border-radius: 30px;
+    width: 150px;
+}
+
+.next-aero i{
+    font-size: 55px !important;
+}
+
+.step-1{
+    height: 100vh;
+    width: 100%;
+}
+
+.registered-btn{
+    background: linear-gradient(to top right , #EDBF3D,  #be9931);
+}
+
+
+.select-cat-img{
+    position: relative;
+}
+
+.select-cat-img img{
+    border-radius: 10px;
+}
+
+.select-cat-img::after{
+    content: 'Creator';
+    position: absolute;
+    width: 75%;
+    height: 50px;
+    background: rgba(243, 239, 239, 0.74);
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.select-cat-img2{
+    position: relative;
+}
+
+.select-cat-img2 img{
+    border-radius: 10px;
+}
+
+.select-cat-img2::after{
+    content: 'Investor';
+    position: absolute;
+    width: 75%;
+    height: 50px;
+    background: rgba(243, 239, 239, 0.74);
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tags{
+    height: 40px;
+    width: 40px;
+}
+
+.signup-upload-img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.signup-upload-img i{
+    font-size: 65px !important;
+}
+
+.stage-text{
+    font-family: 'Inter';
+}
+
+.close-tab{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    transition: 0.2s;
+}
+
+.close-tab:hover{
+    background:  #EDBF3D;
+    border: 0px !important;
+}
+
+.close-tab i{
+    font-size: 15px;
+}
+
+.close-tab:hover i{
+    color: black !important;
+}
+
+
+
+
+/* ---------------------- Sign Up Right Component END---------------------- */
+
+
+/* ---------------------- Explore Page---------------------- */
+
+.explore-banner-img{
+    top: -120px;
+}
+
+.explor-img-text{
+    position: relative;
+    font-size: 25px;
+    background-color: rgba(255, 253, 253, 0.281);
+    width: 100% !important;
+    bottom: 105px;
+    border-radius: 0 0 10px 10px ;
+}
+
+.explore-banner-img img{
+    border-radius: 10px;
+}
+
+#Nft_s h1{
+    font-size: 55px ;
+}
+
+.nft-img{
+    border-radius: 12px;
+}
+
+/* ---------------------- Explore Page END---------------------- */
+
+.investors-card{
+    border-radius: 10px;
+}
+
+
+
+/* ---------------------- Footer ---------------------- */
+
+.step-icon{
+    background: linear-gradient(to top  , #f0bc2e,  #5a4200);
+    border-radius: 15px;
+    width: 70px;
+    box-shadow: 0 0 15px 0px rgba(3, 3, 3, 0.158);
+}
+
+.steps-back{
+    background: linear-gradient(to top  , #bb8521,  #f0bc2e);
+
+}
+
+.footer-input{
+    background: white !important;
+    border: 0px !important;
+}
+
+.footer-input:focus{
+    border: 0px !important;
+}
+
+.footer-btn{
+    background: linear-gradient(to top  , #bb8521,  #f0bc2e);
+}
+
+.footer{
+    border-radius: 20px;
+}
+
+/* ---------------------- Footer END---------------------- */
+
+
+
+
+
+/* ---------------------- Unauth Profile---------------------- */
+
+#unauth-profile-banner{
+    height: 300px;
+}
+
+.pic{
+    border: 5px solid #EDBF3D !important;
+    width: 150px;
+    height: 150px;
+}
+
+.pic i{
+    font-size: 120px !important;
+}
+
+/* ---------------------- Unauth Profile END---------------------- */
+
+
+
+
+@media screen and (max-width: 450px) {
+    .social-logo{
+        display: flex !important;
+    }
+    .social-logo li{
+        padding: 12px 25px !important;
+        margin-top: 20px !important;
+    }
+
+    .stage-text{
+        display: none !important;
+    }
+
+    .user-bio{
+        flex-wrap: wrap !important;
+    }
+
+    .btn-primary{
+        width: 100%;
+    }
+
+    #banner_bottom_text{
+        display: none !important;
+    }
+
+    #banner_text h1{
+        font-size: 55px !important;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .right-back{
+        display: none;
+    }
+    .explor-banner-text{
+        width: 100%;
+    }
+    .explore-banner-img{
+        margin-top: 200px;
+    }
+
+    .explore-banner-img img{
+        width: 100%;
+    }
+
+    .explore-banner-img-col{
+        width: 100% !important;
+    }
+
+    .explor-img-text{
+        width: 100%;
+    }
+
+    #Nft_s{
+        margin-top: 600px !important;
+    }
+
+    .artist-sight-pic{
+        display: none !important;
+    }
+
+    /* navbar ersponsive */
+}
+
+@media screen and (max-width: 994px) {
+    .search-bar{
+        display: none !important;
+    }
+    .links{
+        display: none !important;
+    }
+    .dp-dropdown{
+        display: none !important;
+    }
+    .notification{
+        display: none !important;
+    }
+    .logo{
+        width: 100% !important;
+    }
+    .manu-bar{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1067px) {
+    .text-logo{
+        display: none !important;
+    }
+}
